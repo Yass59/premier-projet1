@@ -1,0 +1,52 @@
+package premier_projet;
+
+import java.util.Scanner;
+
+
+public class NouvelleExo2 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+			System.out.println("veuillez saisir votre cote");
+		
+		int cote = sc.nextInt();
+
+		int total = cote * cote;
+
+		for (int i = 1; i <= total; i++) {
+
+			System.out.print(" *");
+
+			if (i % cote == 0) {
+
+				System.out.println();
+
+			}
+
+		}
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
